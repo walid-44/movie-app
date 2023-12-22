@@ -1,0 +1,31 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #bd0c0c;
+  --transition-: 0.3s;
+  --white-:#fff;
+  --first-font-:1.5rem;
+  --h3-font-: 2rem;
+  --hover-bg-btn-:#33333395;
+  --bg-white-transparent-:hsla(0,0%,100%,.226);
+  --bg-footer-:#11173b;
+}
+@media(max-width:991px){
+  :root{
+    --first-font-:1.25rem;
+    --h3-font-: 1.5rem;
+    
+  }
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}

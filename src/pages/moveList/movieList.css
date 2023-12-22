@@ -1,0 +1,9 @@
+.movie-list-content{
+  height: 100vh;
+}
+.card-movie-live{
+  max-height: 600px;
+}
+.img-live{
+  max-height: 340px;
+}

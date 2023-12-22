@@ -1,0 +1,45 @@
+.navbar-back {
+  background: rgb(28, 28, 28);
+  border-bottom: 2px solid var(--primary);
+  border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+
+}
+.nav-link,
+.nav-link.active {
+  color: var(--white-) !important;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: var(--transition-);
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.navbar-toggle {
+  background-color: var(--primary) !important;
+  border: none;
+  box-shadow: none;
+}
+.navbar-toggle > span {
+  color: var(--primary) !important;
+}
+
+.icon-link{
+  background: var(--bg-white-transparent-) !important;
+  border-radius: 10px;
+  
+}
+.number-live{
+  top: -10px;
+  right: -10px;
+  background-color: var(--primary);
+  border-radius:50% ;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white-);
+}

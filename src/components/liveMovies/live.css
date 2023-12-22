@@ -1,0 +1,13 @@
+svg{
+  transition: var(--transition-);
+}
+svg.active {
+  color: var(--primary);
+}
+svg:hover {
+
+  color: var(--primary);
+}
+.icon {
+  color: var(--white-) ;
+}

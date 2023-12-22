@@ -1,0 +1,13 @@
+
+@media(max-width:991px){
+
+  .control-dots{
+    display: none;
+  }
+}
+@media(max-width:545px){
+
+  .control-arrow {
+    display: none;
+  }
+}

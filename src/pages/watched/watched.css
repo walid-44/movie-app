@@ -1,0 +1,8 @@
+.watched-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 10px;
+  width: 100%;
+  gap: 20px;
+}

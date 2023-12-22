@@ -1,0 +1,21 @@
+.movie-banner {
+  display: block;
+  height: 800px;
+  padding-bottom: 30px;
+}
+
+@media(max-width: 991px) {
+  .movie-banner {
+    height: 600px;
+  }
+}
+
+@media(max-width: 767px) {
+  .movie-banner {
+    height: 300px;
+  }
+}
+
+.poster-img {
+  height: min(100%, 800px);
+}

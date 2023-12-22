@@ -1,0 +1,29 @@
+footer {
+  background-color: var(--bg-footer-);
+  border-top: 2px solid var(--primary);
+  border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+}
+
+.copyright {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: var(--white-);
+}
+
+.social-media a {
+  background-color: var(--bg-white-transparent-);
+  padding: 1rem;
+  border-radius: 10px;
+
+}
+
+.social-media a svg {
+  color: var(--white-);
+  font-size: 22px;
+  transition: var(--transition-);
+}
+
+.social-media a:hover svg {
+  color: var(--primary);
+
+}

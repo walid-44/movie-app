@@ -1,0 +1,6 @@
+.spinner{
+  width: fit-content;
+  height: 80vh;
+  margin: auto;
+  transform: translate(-50%, -50%);
+}
