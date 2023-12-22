@@ -1,6 +1,6 @@
 
 .search-content{
-  height: 75vh;
+  min-height: 75vh;
 }
 .search{
   position: relative;
