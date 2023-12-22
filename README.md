@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template fetches movies from the api and supports the pwa feature
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displaying Movies by fetching data from API using Redux & Redux Toolkit.
+- Searching for movies using the API.
+- Adding movies to a watchlist list and saving it in local storage.
+- Displaying movies details and the cast related to the movie, also Displaying related movies.
